@@ -22,4 +22,9 @@ HomeController {
     public @ResponseBody String greetingFulano() {
         return "Hello, Fulano!";
     }
+
+    @RequestMapping("/hotfix/fernando")
+    public @ResponseBody String greetingFernandoHotfix() {
+        return "Hello, Fernando from hotfix branch";
+    }
 }
