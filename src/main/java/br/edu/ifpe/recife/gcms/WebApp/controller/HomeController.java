@@ -27,4 +27,9 @@ HomeController {
     public @ResponseBody String greetingFernandoHotfix() {
         return "Hello, Fernando from hotfix branch";
     }
+
+    @RequestMapping("/test/fernando")
+    public @ResponseBody String greetingTest() {
+        return "Hello, testing greeting";
+    }
 }
