@@ -46,7 +46,7 @@ class WebAppApplicationTests {
 
 	@Test
 	public void shouldReturnUndertakerMessage() throws Exception {
-		this.mockMvc.perform(get("/"))
+		this.mockMvc.perform(get("/Undertaker"))
 				.andDo(print()).andExpect(status().isOk())
 				.andExpect(content()
 						.string(containsString("Hello, Undertaker!")));

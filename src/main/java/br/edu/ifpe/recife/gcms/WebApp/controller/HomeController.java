@@ -28,13 +28,8 @@ HomeController {
         return "Hello, Fernando from hotfix branch";
     }
 
-    @RequestMapping("/test/fernando")
-    public @ResponseBody String greetingTest() {
-        return "Hello, testing greeting";
-    }
-
     @RequestMapping("/Undertaker")
     public @ResponseBody String greetingUndertaker() {
-        return "Hello, John Cena!";
+        return "Hello, Undertaker!";
     }
 }
